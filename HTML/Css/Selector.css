@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+    font-size: larger;
+    font-family: fantasy;
+    cursor: grabbing;
+}
+
+#h3{
+    background-color: red;
+}
+
+.h4{
+    background-color: rgb(255, 153, 0);
+}
+
+
+p{
+    color: black; background-color: blue;
+}

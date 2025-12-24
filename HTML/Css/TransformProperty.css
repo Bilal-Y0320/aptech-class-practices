@@ -1,0 +1,37 @@
+/* *{
+    background: linear-gradient(crimson, gold);
+} */
+.cl1{
+    background-color: blue;
+    width: 100px;
+    height: 60px;
+    transform: translateX(15px);
+     background: linear-gradient(rgb(237, 237, 237), gold);
+}
+.cl2{
+    background-color: rgb(150, 150, 201);
+    width: 100px;
+    height: 60px;
+    transform: translateY(20px);
+     background: linear-gradient(rgb(0, 0, 0), gold);
+}
+.cl3{
+    background-color: rgb(6, 6, 48);
+    width: 90px;
+    height: 120px;
+    transform: rotate(90deg);
+     background: linear-gradient(rgb(20, 33, 220), rgb(255, 0, 204));
+}
+.cl4{
+    background-color: rgb(0, 255, 208);
+    width: 60px;
+    height: 60px;
+    transform: skew(45deg);
+     background: linear-gradient(rgb(3, 255, 129), rgb(0, 0, 0));
+}
+.cl5{
+    background-color: rgb(85, 0, 255);
+    width: 50px;
+    height: 60px;
+    transform: scale(1.5);
+}

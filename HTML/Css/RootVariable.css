@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund+Guides&display=swap');
+
+:root{
+    --bg: #000000
+    --ff: "Playwrite DE Grund Guides", cursive;
+    position: ;
+}
+h1{
+    font-family: var(--ff);
+    background-color: var(--bg);}

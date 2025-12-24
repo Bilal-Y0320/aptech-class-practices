@@ -1,0 +1,49 @@
+/* Hide the checkbox itself */
+#toggle {
+  display: none;
+}
+
+/* Style the label to look like a button */
+.toggle-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+/* Hover effect */
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+/* The form hidden by default */
+form {
+  display: none;
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  font-family: Arial, sans-serif;
+}
+
+/* Show form when checkbox is checked */
+#toggle:checked + .toggle-btn + form {
+  display: block;
+}
+
+/* Optional: change button text when active */
+#toggle:checked + .toggle-btn::after {
+  content: " (Hide)";
+}
+
+/* Optional: change button color when active */
+#toggle:checked + .toggle-btn {
+  background-color: #28a745;
+}

@@ -1,0 +1,13 @@
+*{
+    background: linear-gradient(90deg, Purple, yellow);
+
+}
+.border{
+    height: 100px; width: 200px;
+    /* border: 2px dotted brown */
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background: linear-gradient(black, white);
+}

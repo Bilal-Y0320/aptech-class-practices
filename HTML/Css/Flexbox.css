@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background: linear-gradient(blue,lightblue);
+
+}
+h2{
+    background-color: black;
+    color: goldenrod;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    
+}
+.child{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+        width: 250px;
+        background: linear-gradient(to right, white, gold);
+        border: 4px groove rgb(0, 0, 0);
+}
+
+.parent > .child > .card > .card_banner img{
+    width: 100%;
+}
+.child2{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.parent > .child2 > .card > .card_banner img{
+    width: 100%;
+}

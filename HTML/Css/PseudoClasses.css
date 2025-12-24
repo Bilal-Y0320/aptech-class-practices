@@ -1,0 +1,8 @@
+a:hover{
+    color: black;
+    background-color: red;
+    first-child
+}
+h1:first-child{
+    background-color: green;
+}

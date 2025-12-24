@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(37, 63, 207);
+}
+#Container{
+    width: 400px; height: 200px;
+    background-color: chartreuse;
+}
+
+#Container .sub-container{
+    background-color: white; width: 10em; height: 50rem;
+}
